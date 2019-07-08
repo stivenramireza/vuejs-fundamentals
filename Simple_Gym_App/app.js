@@ -11,7 +11,6 @@ const app = new Vue({
                 nombre: this.nuevaTarea,
                 estado: false
             });
-            console.log(this.tareas);
             this.nuevaTarea = '';
             obtenerTareas(this.tareas);
         },
@@ -33,7 +32,6 @@ const app = new Vue({
 
         }
     },
-
 });
 
 
