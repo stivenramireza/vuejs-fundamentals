@@ -29,7 +29,6 @@ const app = new Vue({
             this.tareas = [];
         }else{
             this.areas = datosDB;
-
         }
     },
 });
