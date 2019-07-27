@@ -33,7 +33,6 @@ const app = new Vue({
     },
 });
 
-
 function obtenerTareas(tareas){
     localStorage.setItem('gym-vue', JSON.stringify(tareas));
 }
